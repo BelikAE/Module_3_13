@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab1
 {
-    internal class MultiBuilding:Building
+    sealed class MultiBuilding:Building
     {
         int level;
 
