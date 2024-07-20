@@ -10,20 +10,13 @@ namespace Lab1
     {
         static void Main(string[] args)
         {
-            try
-            {
-                Building building = new Building("Горького 7", 40, 12, 31);
-                Console.WriteLine(building.Print());
-                MultiBuilding multiBuilding = new MultiBuilding("Столетия 15", 50, 15, 22, 7);
-                Console.WriteLine(multiBuilding.Print());
-                Console.ReadKey();
-            }
-            catch (Exception ex)
-            {
 
-                Console.WriteLine(ex.Message);
-            }
-            
+             Building building = new Building("Горького 7", 40, 12, 31);
+             Console.WriteLine(building.Print());
+             MultiBuilding multiBuilding = new MultiBuilding("Столетия 15", 50, 15, 22, 7);
+             Console.WriteLine(multiBuilding.Print());
+             Console.ReadKey();
+
         }
     }
 }
